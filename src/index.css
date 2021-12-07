@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
@@ -13,8 +14,18 @@ code {
 }
 
 .AllStudents {
-border: solid;
 width: 80%;
 text-align:center;
 margin-left: 10%;
+margin-top: 10px;
+padding:10px;
+font-size: 15px;
+display: flex;
+justify-content:space-evenly;
+}
+
+.ScoreContainer {
+  color:blueviolet;
+  font-size: 14px;
+  align-items: center;
 }

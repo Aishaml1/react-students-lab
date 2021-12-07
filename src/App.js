@@ -3,9 +3,11 @@ import './App.css';
 import studentsArr from "./StudentsData.js";
 import Students from "./Students";
 
+
 function App() {
   const students = studentsArr.map((ele, index) => {
     return (
+      'Secondary',
       <Students 
         name={ele.name}
         bio={ele.bio}
